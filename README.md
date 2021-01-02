@@ -1,4 +1,4 @@
-fractal.sk - 99592 bytes
+[*] fractal.sk - 99592 bytes
 
 Colouring is the most expensive instruction (6 DATA + 1 COLOUR = 7 bytes).
 
@@ -12,7 +12,7 @@ Most efficient movement requires least efficient colouring.
 
 Best compression requires both.
 
-Plan.
+[*] Plan.
 
 Set every colour ONCE. 
 
@@ -22,6 +22,6 @@ Draw with DY.
 
 Jump over pixels if needed.
 
-The program assumes a pgm file of size 200x200 and max gray of 255.
+[*] The program assumes a pgm file of size 200x200 and max gray of 255.
 
 sk -> pgm fills a 200x200 matrix with grays. Works for intermediate.
